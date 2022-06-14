@@ -1,1 +1,4 @@
-{}
+{
+    "testFiles": "**/*.{feature,features}",
+    "baseUrl":"https://shop.demoqa.com/my-account/"
+  }
