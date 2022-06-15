@@ -1,0 +1,72 @@
+[
+  {
+    "description": "Adding test to regression suite",
+    "keyword": "Feature",
+    "name": "End to End E-commerce validation",
+    "line": 1,
+    "id": "end-to-end-e-commerce-validation",
+    "tags": [],
+    "uri": "ecommerceTest.feature",
+    "elements": [
+      {
+        "id": "end-to-end-e-commerce-validation;placing-an-order",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "placing an order",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open E-commerce website",
+            "result": {
+              "status": "passed",
+              "duration": 12777000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Sarath93",
+                      "sarathviswanath93@gmail.com",
+                      "1234567890"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I do the registration with valid username, email and password",
+            "result": {
+              "status": "passed",
+              "duration": 7876000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Verify if the registration is successful or not",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
