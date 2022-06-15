@@ -2,12 +2,14 @@ Feature: End to End E-commerce validation
 
 Adding test to regression suite
 
-Scenario: E-commerce product delivery
+Scenario: placing an order
 
 Given I open E-commerce website
 
-When I add items to cart
+And I do the registration with valid username, email and password
+    | username | email | password |
+    | Sarath93 | sarathviswanath93@gmail.com | 1234567890 |
 
-And Validate total price
+And Verify if the registration is successful or not
 
-Then Select the country submit and verify thank you message
+
